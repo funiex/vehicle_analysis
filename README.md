@@ -61,7 +61,7 @@ Auto Analytics is a ReactJS based web application with a Django based backend AP
 **4. AUTO API**: A Django based REST API, which executes queries and processes datasets and sends processed information to the frontend client in JSON format, so a user can view it to make informed decisions.
 Visit AUTO-API repo for API docs and Installation details.
 > [AUTOAPI Service](https://engage-autoapi.herokuapp.com)
-Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation Process and API Docs.
+Visit [AUTO API](https://github.com/funiex/backend-api-vehicle) Repository for Installation Process and API Docs.
 
 ## **Technologies used :-**
 * **[ReactJS](https://www.djangoproject.com/)**: React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
@@ -80,63 +80,11 @@ Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation
 
 ## Application Architecture
 
-![](https://raw.githubusercontent.com/aj-2000/auto-analytics/master/ApplicationStructure.png)
+![](https://github.com/funiex/vehicle_analysis/blob/master/ApplicationStructure.png)
 
 # **How to Set up *`Auto Analytics`* for Development ?**
 
 ## **FRONTEND CLIENT**
-
-### 1. **Clone / Download**
-
-```bash
-https://github.com/aj-2000/auto-analytics.git
-```
-
-Please change the directory after cloning the repository using the `cd <folder-name>` command.
-
-### 2. **Install Dependencies**
-Next, install the dependencies by running the following command in the `react-play` repo:
-
-```bash
-npm install
-```
-or
-  
-```bash
-yarn install
-```
-
-### 3. **Start the Development Mode**
-Use the following command to start the app in the development mode:
-
-```bash
-npm start
-```
-or
-  
-```bash
-yarn start
-```
-
-It runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### 4. **Build the App for Production**
-Use the following command to build the app for production:
-
-```bash
-npm run build
-```
-or
-  
-```bash
-yarn build
-```
-
-It builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
-
-## **BACKEND API SERVER**
 > [AUTOAPI Service](https://engage-autoapi.herokuapp.com)
 
 Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation Process and API Docs.
@@ -144,6 +92,3 @@ Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation
 ## **Configure BACKEND API URL to Frontend**
 
 ###  in auto-analytics/src/consts/urls.js
-```bash
-export const BASE_URL = "BACKEND_SERVER_URL" // https://localhost:8000 or https://engage-autoapi.herokuapp.com
-```
