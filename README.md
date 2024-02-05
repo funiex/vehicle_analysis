@@ -86,6 +86,6 @@ Visit [AUTO API](https://github.com/funiex/backend-api-vehicle) Repository for I
 
 
 
-Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for documantion of backend using django rest framework.
+Visit [AUTO API](https://github.com/funiex/backend-api-vehicle) Repository for documantion of backend using django rest framework.
 
 
