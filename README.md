@@ -82,13 +82,10 @@ Visit [AUTO API](https://github.com/funiex/backend-api-vehicle) Repository for I
 
 ![](https://github.com/funiex/vehicle_analysis/blob/master/ApplicationStructure.png)
 
-# **How to Set up *`Auto Analytics`* for Development ?**
 
-## **FRONTEND CLIENT**
-> [AUTOAPI Service](https://engage-autoapi.herokuapp.com)
 
-Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for Installation Process and API Docs.
 
-## **Configure BACKEND API URL to Frontend**
 
-###  in auto-analytics/src/consts/urls.js
+Visit [AUTO API](https://github.com/aj-2000/autoapi) Repository for documantion of backend using django rest framework.
+
+
